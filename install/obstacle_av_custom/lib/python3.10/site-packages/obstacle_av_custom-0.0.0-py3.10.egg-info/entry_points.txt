@@ -1,0 +1,3 @@
+[console_scripts]
+obstacle_avoider = obstacle_av_custom.obstacle_avoider:main
+

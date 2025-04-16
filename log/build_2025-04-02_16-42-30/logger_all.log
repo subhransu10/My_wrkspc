@@ -1,0 +1,317 @@
+[0.196s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'obstacle_av_custom']
+[0.196s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['obstacle_av_custom'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x724fd2776080>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x724fd27745e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x724fd27745e0>>, mixin_verb=('build',))
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.427s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/suba/my_ros2_ws/src'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World) by extension 'ros'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World) by extensions ['cmake', 'python']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World) by extension 'cmake'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World) by extension 'python'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World) by extensions ['python_setup_py']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World) by extension 'python_setup_py'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/launch) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/launch) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/launch) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/launch) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/launch) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/launch) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/launch) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/launch) by extension 'ros'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/launch) by extensions ['cmake', 'python']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/launch) by extension 'cmake'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/launch) by extension 'python'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/launch) by extensions ['python_setup_py']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/launch) by extension 'python_setup_py'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/thumbnails) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/thumbnails) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/thumbnails) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/thumbnails) by extension 'colcon_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/thumbnails) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/thumbnails) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/thumbnails) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/thumbnails) by extension 'ros'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/thumbnails) by extensions ['cmake', 'python']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/thumbnails) by extension 'cmake'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/thumbnails) by extension 'python'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/thumbnails) by extensions ['python_setup_py']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(Ionic World/thumbnails) by extension 'python_setup_py'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2) by extension 'colcon_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2) by extension 'ros'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2) by extensions ['cmake', 'python']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2) by extension 'cmake'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2) by extension 'python'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2) by extensions ['python_setup_py']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2) by extension 'python_setup_py'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_base) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_base) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_base) by extension 'ignore_ament_install'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_base) by extensions ['colcon_pkg']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_base) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_base) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_base) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_base) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_base) by extension 'ros'
+[0.440s] DEBUG:colcon.colcon_core.package_identification:Package 'husky_ros2/husky_base' with type 'ros.ament_cmake' and name 'husky_base'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_bringup) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_bringup) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_bringup) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_bringup) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_bringup) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_bringup) by extension 'colcon_meta'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_bringup) by extensions ['ros']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_bringup) by extension 'ros'
+[0.441s] DEBUG:colcon.colcon_core.package_identification:Package 'husky_ros2/husky_bringup' with type 'ros.ament_cmake' and name 'husky_bringup'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_control) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_control) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_control) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_control) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_control) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_control) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_control) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_control) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_control) by extension 'ros'
+[0.442s] DEBUG:colcon.colcon_core.package_identification:Package 'husky_ros2/husky_control' with type 'ros.ament_cmake' and name 'husky_control'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_description) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_description) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_description) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_description) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_description) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_description) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_description) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_description) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_description) by extension 'ros'
+[0.443s] DEBUG:colcon.colcon_core.package_identification:Package 'husky_ros2/husky_description' with type 'ros.ament_cmake' and name 'husky_description'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_desktop) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_desktop) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_desktop) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_desktop) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_desktop) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_desktop) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_desktop) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_desktop) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_desktop) by extension 'ros'
+[0.443s] DEBUG:colcon.colcon_core.package_identification:Package 'husky_ros2/husky_desktop' with type 'ros.ament_cmake' and name 'husky_desktop'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_gazebo) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_gazebo) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_gazebo) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_gazebo) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_gazebo) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_gazebo) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_gazebo) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_gazebo) by extension 'ros'
+[0.444s] DEBUG:colcon.colcon_core.package_identification:Package 'husky_ros2/husky_gazebo' with type 'ros.ament_cmake' and name 'husky_gazebo'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_msgs) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_msgs) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_msgs) by extensions ['colcon_pkg']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_msgs) by extension 'colcon_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_msgs) by extensions ['colcon_meta']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_msgs) by extension 'colcon_meta'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_msgs) by extensions ['ros']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_msgs) by extension 'ros'
+[0.445s] DEBUG:colcon.colcon_core.package_identification:Package 'husky_ros2/husky_msgs' with type 'ros.ament_cmake' and name 'husky_msgs'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_navigation) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_navigation) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_navigation) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_navigation) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_navigation) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_navigation) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_navigation) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_navigation) by extension 'ros'
+[0.446s] DEBUG:colcon.colcon_core.package_identification:Package 'husky_ros2/husky_navigation' with type 'ros.ament_cmake' and name 'husky_navigation'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_robot) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_robot) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_robot) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_robot) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_robot) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_robot) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_robot) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_robot) by extension 'ros'
+[0.447s] DEBUG:colcon.colcon_core.package_identification:Package 'husky_ros2/husky_robot' with type 'ros.ament_cmake' and name 'husky_robot'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_simulator) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_simulator) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_simulator) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_simulator) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_simulator) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_simulator) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_simulator) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_simulator) by extension 'ros'
+[0.447s] DEBUG:colcon.colcon_core.package_identification:Package 'husky_ros2/husky_simulator' with type 'ros.ament_cmake' and name 'husky_simulator'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_viz) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_viz) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_viz) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_viz) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_viz) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_viz) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_viz) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_viz) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(husky_ros2/husky_viz) by extension 'ros'
+[0.448s] DEBUG:colcon.colcon_core.package_identification:Package 'husky_ros2/husky_viz' with type 'ros.ament_cmake' and name 'husky_viz'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_av_custom) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_av_custom) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_av_custom) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_av_custom) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_av_custom) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_av_custom) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_av_custom) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_av_custom) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_av_custom) by extension 'ros'
+[0.449s] DEBUG:colcon.colcon_core.package_identification:Package 'obstacle_av_custom' with type 'ros.ament_python' and name 'obstacle_av_custom'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_avoidance) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_avoidance) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_avoidance) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_avoidance) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_avoidance) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_avoidance) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_avoidance) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_avoidance) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_avoidance) by extension 'ros'
+[0.449s] DEBUG:colcon.colcon_core.package_identification:Package 'obstacle_avoidance' with type 'ros.ament_python' and name 'obstacle_avoidance'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(simple_env) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(simple_env) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(simple_env) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(simple_env) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(simple_env) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(simple_env) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(simple_env) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(simple_env) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(simple_env) by extension 'ros'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(simple_env) by extensions ['cmake', 'python']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(simple_env) by extension 'cmake'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(simple_env) by extension 'python'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(simple_env) by extensions ['python_setup_py']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(simple_env) by extension 'python_setup_py'
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.482s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'husky_description' in 'husky_ros2/husky_description'
+[0.482s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'husky_msgs' in 'husky_ros2/husky_msgs'
+[0.482s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'husky_navigation' in 'husky_ros2/husky_navigation'
+[0.482s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'obstacle_avoidance' in 'obstacle_avoidance'
+[0.482s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'husky_base' in 'husky_ros2/husky_base'
+[0.482s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'husky_control' in 'husky_ros2/husky_control'
+[0.482s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'husky_viz' in 'husky_ros2/husky_viz'
+[0.483s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'husky_bringup' in 'husky_ros2/husky_bringup'
+[0.483s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'husky_desktop' in 'husky_ros2/husky_desktop'
+[0.483s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'husky_gazebo' in 'husky_ros2/husky_gazebo'
+[0.483s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'husky_robot' in 'husky_ros2/husky_robot'
+[0.483s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'husky_simulator' in 'husky_ros2/husky_simulator'
+[0.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.495s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/suba/my_ros2_ws/install
+[0.495s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/suba/catkin_ws/install
+[0.501s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 346 installed packages in /home/suba/ros2_humble/install
+[0.503s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 317 installed packages in /opt/ros/humble
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'obstacle_av_custom' build argument 'cmake_args' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'obstacle_av_custom' build argument 'cmake_target' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'obstacle_av_custom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'obstacle_av_custom' build argument 'cmake_clean_cache' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'obstacle_av_custom' build argument 'cmake_clean_first' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'obstacle_av_custom' build argument 'cmake_force_configure' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'obstacle_av_custom' build argument 'ament_cmake_args' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'obstacle_av_custom' build argument 'catkin_cmake_args' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'obstacle_av_custom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.551s] DEBUG:colcon.colcon_core.verb:Building package 'obstacle_av_custom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/suba/my_ros2_ws/src/build/obstacle_av_custom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/suba/my_ros2_ws/src/install/obstacle_av_custom', 'merge_install': False, 'path': '/home/suba/my_ros2_ws/src/obstacle_av_custom', 'symlink_install': False, 'test_result_base': None}
+[0.551s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.551s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.551s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/suba/my_ros2_ws/src/obstacle_av_custom' with build type 'ament_python'
+[0.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_av_custom', 'ament_prefix_path')
+[0.558s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/hook/ament_prefix_path.ps1'
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/hook/ament_prefix_path.dsv'
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/hook/ament_prefix_path.sh'
+[0.559s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.559s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.953s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/suba/my_ros2_ws/src/obstacle_av_custom'
+[0.953s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.953s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suba/my_ros2_ws/src/obstacle_av_custom': PYTHONPATH=/home/suba/my_ros2_ws/src/build/obstacle_av_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suba/my_ros2_ws/src/install/obstacle_av_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/obstacle_av_custom build --build-base /home/suba/my_ros2_ws/src/build/obstacle_av_custom/build install --record /home/suba/my_ros2_ws/src/build/obstacle_av_custom/install.log --single-version-externally-managed install_data
+[1.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suba/my_ros2_ws/src/obstacle_av_custom' returned '0': PYTHONPATH=/home/suba/my_ros2_ws/src/build/obstacle_av_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suba/my_ros2_ws/src/install/obstacle_av_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/obstacle_av_custom build --build-base /home/suba/my_ros2_ws/src/build/obstacle_av_custom/build install --record /home/suba/my_ros2_ws/src/build/obstacle_av_custom/install.log --single-version-externally-managed install_data
+[1.910s] Level 1:colcon.colcon_core.environment:checking '/home/suba/my_ros2_ws/src/install/obstacle_av_custom' for CMake module files
+[1.911s] Level 1:colcon.colcon_core.environment:checking '/home/suba/my_ros2_ws/src/install/obstacle_av_custom' for CMake config files
+[1.912s] Level 1:colcon.colcon_core.environment:checking '/home/suba/my_ros2_ws/src/install/obstacle_av_custom/lib'
+[1.912s] Level 1:colcon.colcon_core.environment:checking '/home/suba/my_ros2_ws/src/install/obstacle_av_custom/bin'
+[1.912s] Level 1:colcon.colcon_core.environment:checking '/home/suba/my_ros2_ws/src/install/obstacle_av_custom/lib/pkgconfig/obstacle_av_custom.pc'
+[1.912s] Level 1:colcon.colcon_core.environment:checking '/home/suba/my_ros2_ws/src/install/obstacle_av_custom/lib/python3.10/site-packages'
+[1.912s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_av_custom', 'pythonpath')
+[1.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/hook/pythonpath.ps1'
+[1.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/hook/pythonpath.dsv'
+[1.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/hook/pythonpath.sh'
+[1.913s] Level 1:colcon.colcon_core.environment:checking '/home/suba/my_ros2_ws/src/install/obstacle_av_custom/bin'
+[1.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obstacle_av_custom)
+[1.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/package.ps1'
+[1.914s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/package.dsv'
+[1.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/package.sh'
+[1.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/package.bash'
+[1.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/package.zsh'
+[1.915s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/colcon-core/packages/obstacle_av_custom)
+[1.916s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.916s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.916s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.916s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.928s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.928s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.928s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.937s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.937s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/suba/my_ros2_ws/src/install/local_setup.ps1'
+[1.938s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/suba/my_ros2_ws/src/install/_local_setup_util_ps1.py'
+[1.939s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/suba/my_ros2_ws/src/install/setup.ps1'
+[1.948s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/suba/my_ros2_ws/src/install/local_setup.sh'
+[1.948s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/suba/my_ros2_ws/src/install/_local_setup_util_sh.py'
+[1.949s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/suba/my_ros2_ws/src/install/setup.sh'
+[1.958s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/suba/my_ros2_ws/src/install/local_setup.bash'
+[1.958s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/suba/my_ros2_ws/src/install/setup.bash'
+[1.967s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/suba/my_ros2_ws/src/install/local_setup.zsh'
+[1.967s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/suba/my_ros2_ws/src/install/setup.zsh'

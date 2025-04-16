@@ -1,0 +1,43 @@
+[0.932s] Invoking command in '/home/suba/my_ros2_ws/src/obstacle_av_custom': PYTHONPATH=/home/suba/my_ros2_ws/src/build/obstacle_av_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suba/my_ros2_ws/src/install/obstacle_av_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/obstacle_av_custom build --build-base /home/suba/my_ros2_ws/src/build/obstacle_av_custom/build install --record /home/suba/my_ros2_ws/src/build/obstacle_av_custom/install.log --single-version-externally-managed install_data
+[1.294s] running egg_info
+[1.294s] creating ../build/obstacle_av_custom/obstacle_av_custom.egg-info
+[1.295s] writing ../build/obstacle_av_custom/obstacle_av_custom.egg-info/PKG-INFO
+[1.295s] writing dependency_links to ../build/obstacle_av_custom/obstacle_av_custom.egg-info/dependency_links.txt
+[1.295s] writing entry points to ../build/obstacle_av_custom/obstacle_av_custom.egg-info/entry_points.txt
+[1.295s] writing requirements to ../build/obstacle_av_custom/obstacle_av_custom.egg-info/requires.txt
+[1.295s] writing top-level names to ../build/obstacle_av_custom/obstacle_av_custom.egg-info/top_level.txt
+[1.295s] writing manifest file '../build/obstacle_av_custom/obstacle_av_custom.egg-info/SOURCES.txt'
+[1.296s] reading manifest file '../build/obstacle_av_custom/obstacle_av_custom.egg-info/SOURCES.txt'
+[1.296s] writing manifest file '../build/obstacle_av_custom/obstacle_av_custom.egg-info/SOURCES.txt'
+[1.297s] running build
+[1.297s] running build_py
+[1.297s] creating /home/suba/my_ros2_ws/src/build/obstacle_av_custom/build
+[1.297s] creating /home/suba/my_ros2_ws/src/build/obstacle_av_custom/build/lib
+[1.297s] creating /home/suba/my_ros2_ws/src/build/obstacle_av_custom/build/lib/obstacle_av_custom
+[1.297s] copying obstacle_av_custom/obstacle_avoider.py -> /home/suba/my_ros2_ws/src/build/obstacle_av_custom/build/lib/obstacle_av_custom
+[1.297s] copying obstacle_av_custom/__init__.py -> /home/suba/my_ros2_ws/src/build/obstacle_av_custom/build/lib/obstacle_av_custom
+[1.297s] running install
+[1.297s] running install_lib
+[1.298s] creating /home/suba/my_ros2_ws/src/install/obstacle_av_custom/lib/python3.10/site-packages/obstacle_av_custom
+[1.298s] copying /home/suba/my_ros2_ws/src/build/obstacle_av_custom/build/lib/obstacle_av_custom/obstacle_avoider.py -> /home/suba/my_ros2_ws/src/install/obstacle_av_custom/lib/python3.10/site-packages/obstacle_av_custom
+[1.298s] copying /home/suba/my_ros2_ws/src/build/obstacle_av_custom/build/lib/obstacle_av_custom/__init__.py -> /home/suba/my_ros2_ws/src/install/obstacle_av_custom/lib/python3.10/site-packages/obstacle_av_custom
+[1.299s] byte-compiling /home/suba/my_ros2_ws/src/install/obstacle_av_custom/lib/python3.10/site-packages/obstacle_av_custom/obstacle_avoider.py to obstacle_avoider.cpython-310.pyc
+[1.300s] byte-compiling /home/suba/my_ros2_ws/src/install/obstacle_av_custom/lib/python3.10/site-packages/obstacle_av_custom/__init__.py to __init__.cpython-310.pyc
+[1.300s] running install_data
+[1.300s] creating /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/ament_index
+[1.300s] creating /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/ament_index/resource_index
+[1.300s] creating /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/ament_index/resource_index/packages
+[1.300s] copying resource/obstacle_av_custom -> /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/ament_index/resource_index/packages
+[1.300s] copying package.xml -> /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom
+[1.301s] creating /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/launch
+[1.301s] copying launch/turtlebot3_world_navigation.launch.py -> /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/launch
+[1.301s] copying launch/spawn_world.launch.py -> /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/launch
+[1.301s] copying launch/visualize_world.launch.py -> /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/launch
+[1.301s] copying launch/obstacle_avoider.launch.py -> /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/launch
+[1.301s] copying launch/launch_world.launch.py -> /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/launch
+[1.301s] running install_egg_info
+[1.303s] Copying ../build/obstacle_av_custom/obstacle_av_custom.egg-info to /home/suba/my_ros2_ws/src/install/obstacle_av_custom/lib/python3.10/site-packages/obstacle_av_custom-0.0.0-py3.10.egg-info
+[1.304s] running install_scripts
+[1.332s] Installing obstacle_avoider script to /home/suba/my_ros2_ws/src/install/obstacle_av_custom/lib/obstacle_av_custom
+[1.333s] writing list of installed files to '/home/suba/my_ros2_ws/src/build/obstacle_av_custom/install.log'
+[1.351s] Invoked command in '/home/suba/my_ros2_ws/src/obstacle_av_custom' returned '0': PYTHONPATH=/home/suba/my_ros2_ws/src/build/obstacle_av_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suba/my_ros2_ws/src/install/obstacle_av_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/obstacle_av_custom build --build-base /home/suba/my_ros2_ws/src/build/obstacle_av_custom/build install --record /home/suba/my_ros2_ws/src/build/obstacle_av_custom/install.log --single-version-externally-managed install_data

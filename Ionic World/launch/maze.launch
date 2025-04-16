@@ -1,0 +1,6 @@
+<launch>
+    <arg name="world_file" default="$(find ionic_world)/worlds/maze.world" />
+
+    <node pkg="gazebo_ros" type="gzserver" name="gazebo" output="screen" args="-s libgazebo_ros_factory.so $(arg world_file)" />
+    <node pkg="gazebo_ros" type="gzclient" name="gazebo_client" output="screen" />
+</launch>

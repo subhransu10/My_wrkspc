@@ -1,0 +1,41 @@
+running egg_info
+creating ../build/obstacle_av_custom/obstacle_av_custom.egg-info
+writing ../build/obstacle_av_custom/obstacle_av_custom.egg-info/PKG-INFO
+writing dependency_links to ../build/obstacle_av_custom/obstacle_av_custom.egg-info/dependency_links.txt
+writing entry points to ../build/obstacle_av_custom/obstacle_av_custom.egg-info/entry_points.txt
+writing requirements to ../build/obstacle_av_custom/obstacle_av_custom.egg-info/requires.txt
+writing top-level names to ../build/obstacle_av_custom/obstacle_av_custom.egg-info/top_level.txt
+writing manifest file '../build/obstacle_av_custom/obstacle_av_custom.egg-info/SOURCES.txt'
+reading manifest file '../build/obstacle_av_custom/obstacle_av_custom.egg-info/SOURCES.txt'
+writing manifest file '../build/obstacle_av_custom/obstacle_av_custom.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/suba/my_ros2_ws/src/build/obstacle_av_custom/build
+creating /home/suba/my_ros2_ws/src/build/obstacle_av_custom/build/lib
+creating /home/suba/my_ros2_ws/src/build/obstacle_av_custom/build/lib/obstacle_av_custom
+copying obstacle_av_custom/obstacle_avoider.py -> /home/suba/my_ros2_ws/src/build/obstacle_av_custom/build/lib/obstacle_av_custom
+copying obstacle_av_custom/__init__.py -> /home/suba/my_ros2_ws/src/build/obstacle_av_custom/build/lib/obstacle_av_custom
+running install
+running install_lib
+creating /home/suba/my_ros2_ws/src/install/obstacle_av_custom/lib/python3.10/site-packages/obstacle_av_custom
+copying /home/suba/my_ros2_ws/src/build/obstacle_av_custom/build/lib/obstacle_av_custom/obstacle_avoider.py -> /home/suba/my_ros2_ws/src/install/obstacle_av_custom/lib/python3.10/site-packages/obstacle_av_custom
+copying /home/suba/my_ros2_ws/src/build/obstacle_av_custom/build/lib/obstacle_av_custom/__init__.py -> /home/suba/my_ros2_ws/src/install/obstacle_av_custom/lib/python3.10/site-packages/obstacle_av_custom
+byte-compiling /home/suba/my_ros2_ws/src/install/obstacle_av_custom/lib/python3.10/site-packages/obstacle_av_custom/obstacle_avoider.py to obstacle_avoider.cpython-310.pyc
+byte-compiling /home/suba/my_ros2_ws/src/install/obstacle_av_custom/lib/python3.10/site-packages/obstacle_av_custom/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/ament_index
+creating /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/ament_index/resource_index
+creating /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/ament_index/resource_index/packages
+copying resource/obstacle_av_custom -> /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/ament_index/resource_index/packages
+copying package.xml -> /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom
+creating /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/launch
+copying launch/turtlebot3_world_navigation.launch.py -> /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/launch
+copying launch/spawn_world.launch.py -> /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/launch
+copying launch/visualize_world.launch.py -> /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/launch
+copying launch/obstacle_avoider.launch.py -> /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/launch
+copying launch/launch_world.launch.py -> /home/suba/my_ros2_ws/src/install/obstacle_av_custom/share/obstacle_av_custom/launch
+running install_egg_info
+Copying ../build/obstacle_av_custom/obstacle_av_custom.egg-info to /home/suba/my_ros2_ws/src/install/obstacle_av_custom/lib/python3.10/site-packages/obstacle_av_custom-0.0.0-py3.10.egg-info
+running install_scripts
+Installing obstacle_avoider script to /home/suba/my_ros2_ws/src/install/obstacle_av_custom/lib/obstacle_av_custom
+writing list of installed files to '/home/suba/my_ros2_ws/src/build/obstacle_av_custom/install.log'
